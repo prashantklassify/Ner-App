@@ -7,7 +7,7 @@ from pathlib import Path
 # --- Setup paths and Google Drive link ---
 DRIVE_ZIP_URL = "https://drive.google.com/uc?id=1zSPRvW5u0qhO-269WQmfW5hLGDybKye1"
 MODEL_ZIP_PATH = "model-best.zip"
-MODEL_DIR = Path("output/model-last")
+MODEL_DIR = Path("output/model-best")
 
 # --- Load model only once ---
 @st.cache_resource
